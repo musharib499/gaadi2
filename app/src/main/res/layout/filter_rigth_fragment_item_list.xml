@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/parentLayoutHeightWidthMatchStyling"
+    android:background="@color/white">
+    <!--  <LinearLayout
+         android:id="@+id/lay_search"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_margin="@dimen/margin_medium"
+         android:orientation="vertical">
+        <LinearLayout
+             android:id="@+id/lay_calander"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:visibility="gone">
+
+             <com.gaadi.sfa.materialedittext.MaterialEditText
+                 android:id="@+id/mev_from_date"
+                 style="@style/editTextStyleNormal"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="@dimen/margin_small"
+                 android:layout_weight="1"
+                 android:drawableLeft="@drawable/ic_assignment_ind_off_24dp"
+                 android:editable="false"
+                 android:elevation="7dp"
+                 android:hint="From Date"
+                 android:padding="0dp"
+                 app:met_floatingLabel="highlight" />
+
+             <com.gaadi.sfa.materialedittext.MaterialEditText
+                 android:id="@+id/mev_to_date"
+                 style="@style/editTextStyleNormal"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="@dimen/margin_small"
+                 android:layout_weight="1"
+                 android:drawableLeft="@drawable/ic_assignment_ind_off_24dp"
+                 android:editable="false"
+                 android:elevation="7dp"
+                 android:hint="To Date"
+                 app:met_floatingLabel="highlight" />
+
+
+         </LinearLayout>
+
+         <android.support.v7.widget.CardView style="@style/CardViewStyle">
+
+             <AutoCompleteTextView
+                 android:id="@+id/dealerSearch"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@color/windowBackground"
+                 android:drawableLeft="@drawable/ic_search_white"
+                 android:hint="Search"
+                 android:imeOptions="actionDone"
+                 android:maxLines="1"
+                 android:padding="5dp"
+                 android:textColor="@color/black" />
+         </android.support.v7.widget.CardView>
+
+
+     </LinearLayout>
+     -->
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recycle_right_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lay_apply"
+        android:layout_marginLeft="@dimen/margin_medium" />
+
+    <RelativeLayout
+
+        android:id="@+id/lay_apply"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_btn_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_next_cheack"
+            style="@style/TextStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_medium"
+            android:text="Apply Filter"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

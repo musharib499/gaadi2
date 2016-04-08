@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/parentLayoutHeightWidthMatchStyling"
+    tools:context="com.gaadi.app.fragments.AdvanceFilterFragment">
+
+    <android.support.v7.widget.CardView style="@style/CardViewStyle">
+
+        <FrameLayout
+            android:id="@+id/framelayout_color"
+            style="@style/parentLayoutWidthMatchStyling" />
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>

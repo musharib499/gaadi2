@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_medium"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view_color"
+        android:layout_width="@dimen/bottom_btn_height"
+        android:layout_height="@dimen/bottom_btn_height" />
+
+    <View
+        android:id="@+id/view_check"
+        android:layout_width="@dimen/bottom_btn_height"
+        android:layout_height="@dimen/bottom_btn_height"
+        android:background="@drawable/ic_check"
+        android:visibility="gone" />
+
+
+</FrameLayout>

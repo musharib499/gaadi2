@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/parentLayoutHeightWidthMatchPaddingStyling"
+    android:orientation="vertical"
+    tools:context="com.gaadi.app.fragments.SelectColorFragment">
+
+    <TextView
+        style="@style/TextStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/color_type" />
+
+
+    <include
+        layout="@layout/layout_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

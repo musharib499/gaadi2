@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/parentLayoutHeightWidthMatchStyling"
+    android:orientation="vertical"
+    tools:context="com.gaadi.app.fragments.CertifiedFragment">
+
+    <LinearLayout
+        style="@style/parentLayoutWidthMatchStyling"
+
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/padding_medium"
+            android:drawableRight="@drawable/ic_trustmark_24"
+            android:gravity="center"
+            android:padding="@dimen/padding_medium"
+            android:text="@string/certified_by" />
+
+        <include layout="@layout/border_view_match_width" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/parentLayoutWidthMatchStylingPaddingStyling">
+
+        <TextView
+            android:id="@+id/tv_service"
+            style="@style/TextStyleNormal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTint="@color/colorAccent"
+            android:drawableTop="@drawable/ic_close_24"
+            android:gravity="center"
+            android:text="@string/service_history" />
+
+        <TextView
+            android:id="@+id/tv_stolen"
+            style="@style/TextStyleNormal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTint="@color/green"
+            android:drawableTop="@drawable/ic_check_24"
+
+            android:gravity="center"
+            android:text="@string/not_stolen" />
+
+        <TextView
+            android:id="@+id/tv_accidental"
+            style="@style/TextStyleNormal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTint="@color/green"
+            android:drawableTop="@drawable/ic_check_24"
+            android:gravity="center"
+            android:text="@string/non_accidental" />
+    </LinearLayout>
+
+    <include layout="@layout/border_view_match_width" />
+
+    <LinearLayout
+        style="@style/parentLayoutWidthMatchStylingPaddingStyling"
+        android:gravity="center">
+
+        <TextView
+            style="@style/TextStyleNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/padding_medium"
+            android:text="@string/overall_rating" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:indeterminateTint="@color/colorAccent"
+            android:numStars="5"
+            android:progressTint="@color/colorAccent"
+            android:rating="1.0"
+            android:stepSize="1.0" />
+
+        <TextView
+            style="@style/TextStyleNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_medium"
+            android:text="1/5" />
+    </LinearLayout>
+
+    <include layout="@layout/border_view_match_width" />
+
+    <Button
+        style="@style/TextStyleNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/padding_large"
+        android:background="@drawable/btn_gray_selected"
+        android:padding="@dimen/padding_small"
+        android:text="@string/view_evaluation_report"
+        android:textColor="@color/toggle_text_color" />
+
+
+</LinearLayout>

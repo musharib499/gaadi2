@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow android:layout_margin="@dimen/margin_medium">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/margin_medium"
+            android:text="@string/air_conditioner"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/margin_medium"
+            android:text="@string/scng_kit"
+            android:textSize="@dimen/text_size_large" />
+
+    </TableRow>
+
+    <TableRow android:layout_margin="@dimen/margin_medium">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/margin_medium"
+            android:text="@string/audio_system"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/margin_medium"
+            android:text="@string/anti_lock_breaking"
+            android:textSize="@dimen/text_size_normal" />
+
+    </TableRow>
+
+    <TableRow android:layout_margin="@dimen/margin_medium">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/margin_medium"
+            android:text="@string/power_window"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/margin_medium"
+            android:text="@string/power_steering"
+            android:textSize="@dimen/text_size_large" />
+
+    </TableRow>
+
+</TableLayout>

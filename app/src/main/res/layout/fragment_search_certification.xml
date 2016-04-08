@@ -1,0 +1,7 @@
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    style="@style/parentLayoutHeightWidthMatchStyling"
+    tools:context="com.gaadi.app.fragments.SearchCertificationFragment">
+
+    <include layout="@layout/layout_recycler_view" />
+
+</FrameLayout>

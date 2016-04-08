@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/parentLayoutHeightWidthMatchPaddingStyling"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView style="@style/CardViewStyle">
+
+        <AutoCompleteTextView
+            android:id="@+id/atv_search"
+            style="@style/TextStyleNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_search_24"
+            android:hint="Search"
+            android:imeOptions="actionDone"
+            android:maxLines="1"
+            android:textColor="@color/black" />
+    </android.support.v7.widget.CardView>
+
+    <include layout="@layout/layout_recycler_view" />
+
+</LinearLayout>

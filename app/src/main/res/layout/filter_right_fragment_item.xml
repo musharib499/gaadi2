@@ -1,0 +1,10 @@
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cb_item"
+    style="@style/TextStyleBlackNormal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_small"
+    android:layout_marginTop="@dimen/padding_large"
+    android:background="@null"
+    android:gravity="center_vertical"
+    android:text="item" />

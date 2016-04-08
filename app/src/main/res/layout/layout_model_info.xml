@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!--<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/parentLayoutHeightWidthMatchPaddingStyling"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/model_name"
+        tools:previewText="@sting/model_name" />
+
+    <TextView
+        style="@style/TextStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:drawableLeft="@drawable/ic_place_24"
+        android:text="Lucknow" />
+
+    <RelativeLayout
+        style="@style/parentLayoutWidthMatchStyling"
+        android:layout_marginTop="@dimen/margin_small">
+
+        <TextView
+            style="@style/TextStyleRedLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="26325632532" />
+
+        <TextView
+            style="@style/TextStyleNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="EMI 12432,364" />
+    </RelativeLayout>
+
+
+</LinearLayout><!--
+</merge>-->

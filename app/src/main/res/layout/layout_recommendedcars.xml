@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycler_recomended_cars"
+    style="@style/parentLayoutWidthMatchStylingPaddingStyling"
+    android:layout_centerHorizontal="true" />
+
+

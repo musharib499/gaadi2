@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/parentLayoutWidthMatchStyling"
+    android:orientation="vertical"
+    tools:context="com.gaadi.app.fragments.DescriptionFragment">
+
+    <LinearLayout
+        style="@style/parentLayoutWidthMatchStyling"
+        android:baselineAligned="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_medium"
+            android:text="@string/description" />
+
+        <include layout="@layout/border_view_match_width" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/TextStyleNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_large"
+        android:text="@string/st_description" />
+
+</LinearLayout>

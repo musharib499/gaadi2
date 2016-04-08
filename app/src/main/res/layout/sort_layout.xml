@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sort_menu_container_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lay_menu_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_no_corner"
+
+        android:elevation="@dimen/elevation_7dp"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_small">
+
+        <RadioGroup
+            android:id="@+id/radio_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sort_by_relevance"
+                style="@style/TextStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:padding="@dimen/padding_small"
+
+                android:text="Relevance" />
+
+            <RadioButton
+                android:id="@+id/sort_by_recent_isted"
+                style="@style/TextStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:padding="@dimen/padding_small"
+                android:text="Recently Listed" />
+
+            <RadioButton
+                android:id="@+id/sort_by_price_asc"
+                style="@style/TextStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:padding="@dimen/padding_small"
+                android:text="Price- Low to High" />
+
+            <RadioButton
+                android:id="@+id/sort_by_price_desc"
+                style="@style/TextStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:padding="@dimen/padding_small"
+                android:text="Price- High to Low" />
+
+            <RadioButton
+                android:id="@+id/sort_by_km_low"
+                style="@style/TextStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:padding="@dimen/padding_small"
+                android:text="Kilometers- Low to High" />
+
+            <RadioButton
+                android:id="@+id/sort_by_new"
+                style="@style/TextStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:button="@null"
+                android:drawableRight="@android:drawable/btn_radio"
+                android:padding="@dimen/padding_small"
+                android:text="Newest First" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

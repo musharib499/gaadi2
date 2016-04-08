@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_large"
+    android:layout_marginLeft="@dimen/margin_large"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_car"
+        android:layout_width="250dp"
+        android:layout_height="180dp" />
+
+    <TextView
+        android:id="@+id/tv_car_name"
+        style="@style/TextStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maruti 800" />
+
+    <TextView
+        android:id="@+id/tv_car_address"
+        style="@style/TextStyleBlackNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="old delhi,New Delhi" />
+
+    <TextView
+        android:id="@+id/tv_car_price"
+        style="@style/TextStyleGaadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\u20b9 3.43 Lakh" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_model_year"
+            style="@style/TextStyleNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="2009" />
+
+        <include layout="@layout/border_view_full_height" />
+
+
+        <TextView
+            android:id="@+id/tv_total_distance"
+            style="@style/TextStyleNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="42,235 Km" />
+
+
+        <include layout="@layout/border_view_full_height" />
+
+
+        <TextView
+            android:id="@+id/tv_fuel_type"
+            style="@style/TextStyleNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Petrol" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
